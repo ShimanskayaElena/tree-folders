@@ -1,0 +1,9 @@
+li {
+    list-style-type: none;
+    margin: 0 40%;
+    text-align: left;
+}
+
+li>span {
+    cursor: pointer;
+}
