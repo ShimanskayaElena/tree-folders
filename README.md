@@ -1,4 +1,6 @@
-# Task2
+# Tree Folders (task 2)
+
+The demo version of this application can be seen from the link - https://shimanskayaelena.github.io/tree-folders/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
 
