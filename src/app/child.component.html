@@ -1,9 +1,0 @@
-<ul>
-    <li *ngFor="let item of children" >
-        <span *ngIf="item.children.length" (click)="show(item); $event.stopPropagation()" [hidden]="id===item.id">+</span>
-        <span *ngIf="item.children.length" (click)="hide(); $event.stopPropagation()" [hidden]="id!==item.id">-</span>
-        {{item.title}}
-        
-        <app-child-component *ngIf="item.id===id" [children]="item.children"></app-child-component>
-    </li>
-</ul>

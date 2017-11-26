@@ -1,8 +1,0 @@
-li {
-    list-style-type: none;
-    text-align: left;
-}
-
-li>span {
-    cursor: pointer;
-}

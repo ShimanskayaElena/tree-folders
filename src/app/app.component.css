@@ -1,9 +1,25 @@
-li {
-    list-style-type: none;
-    margin: 0 40%;
-    text-align: left;
+h1 {
+    text-align: center;
+    color: #7aa3db;
 }
 
-li>span {
-    cursor: pointer;
+div {
+    background-color: #d1ddeb;
+    width: 20%;
+    padding: 1%;
+    margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    div {
+        width: 70%;
+        margin: 0 15%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div {
+        width: 90%;
+        margin: 0 5%;
+    }
 }

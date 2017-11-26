@@ -1,0 +1,25 @@
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+li {
+    margin: 10px 0;
+    border-top: solid 3px #a2bee5;
+    padding-top: 6px;
+}
+
+li>span {
+    cursor: pointer;
+}
+
+.fa-fw {
+    color: #a2bee5;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 576px) {
+    .fa-fw {
+        font-size: 14px;
+    }
+}

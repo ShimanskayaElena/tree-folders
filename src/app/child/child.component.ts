@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 
-import { Item } from './data';
+import { Item } from '../shared/data';
 
 @Component({
   selector: 'app-child-component',
@@ -13,11 +13,13 @@ export class ChildComponent {
 
   @Input() children: Item[];
 
-  show(child) {
+  show(child, event) {
+    event.stopPropagation();
     this.id = child.id;
   }
 
-  hide() {
+  hide(event) {
+    event.stopPropagation();
     this.id = null;
   }
 }
